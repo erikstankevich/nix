@@ -104,6 +104,7 @@
     git
     powershell
     anki
+    xclip
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
