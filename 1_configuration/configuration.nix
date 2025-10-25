@@ -107,6 +107,7 @@
     xclip
     godot-mono
     dotnet-sdk_8
+    github-cli
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
