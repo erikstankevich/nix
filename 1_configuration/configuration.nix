@@ -105,6 +105,8 @@
     powershell
     anki
     xclip
+    godot-mono
+    dotnet-sdk_8
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
