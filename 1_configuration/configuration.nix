@@ -107,6 +107,7 @@
     xclip
     cloudflared
     python3
+    steam
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
