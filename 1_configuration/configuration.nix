@@ -81,14 +81,14 @@
   # services.xserver.libinput.enable = true;
 
   # Define a user account. Don't forget to set a password with ‘passwd’.
-  #users.users.erik = {
-    #isNormalUser = true;
-    #description = "erik";
-    #extraGroups = [ "networkmanager" "wheel" ];
-    #packages = with pkgs; [
-    #  thunderbird
-   # ];
-  #};
+  users.users.erik = {
+    isNormalUser = true;
+    description = "erik";
+    extraGroups = [ "networkmanager" "wheel" ];
+    packages = with pkgs; [
+      thunderbird
+    ];
+  };
 
   # Install firefox.
   programs.firefox.enable = true;
@@ -121,7 +121,7 @@
   # List services that you want to enable:
 
   # Enable the OpenSSH daemon.
-  # services.openssh.enable = true;
+  services.openssh.enable = true;
 
   # Open ports in the firewall.
   # networking.firewall.allowedTCPPorts = [ ... ];
